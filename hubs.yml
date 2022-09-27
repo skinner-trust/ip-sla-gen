@@ -1,0 +1,356 @@
+188100:
+   id: 188100 
+   spoke_wip: '185.37.188.201'
+   nhrp_id: 188100
+   nhrp_pass: KDVx18dm
+   delay: 1000
+   hub_id: 188
+   tun_id: 100
+   tun_weght: PRI
+   tun_city: Tomsk
+   eigrp_id: 1
+188200:
+   id: 188200
+   spoke_wip: '185.37.188.202'
+   nhrp_id: 188200
+   nhrp_pass: KDVx18dm
+   delay: 1100
+   hub_id: 188
+   tun_id: 200
+   tun_weght: BKP
+   tun_city: Tomsk
+   eigrp_id: 1
+189100:
+   id: 189100 
+   spoke_wip: '185.37.189.201'
+   nhrp_id: 189100
+   nhrp_pass: KDVx18dm
+   delay: 1000
+   hub_id: 189
+   tun_id: 100
+   tun_weght: PRI
+   tun_city: Tomsk
+   eigrp_id: 1
+189200:
+   id: 189200
+   spoke_wip: '185.37.189.202'
+   nhrp_id: 189200
+   nhrp_pass: KDVx18dm
+   delay: 1100
+   hub_id: 189
+   tun_id: 200
+   tun_weght: BKP
+   tun_city: Tomsk
+   eigrp_id: 1
+189250:
+   id: 189250
+   spoke_wip: '185.37.189.203'
+   nhrp_id: 888
+   nhrp_pass: KDVx18dm
+   delay: 1200
+   hub_id: 189
+   tun_id: 250
+   tun_weght: BKP
+   tun_city: Tomsk
+   eigrp_id: 1
+
+#Voronej-Rostel
+21100:
+   id: 21100
+   spoke_wip: '88.83.195.130'
+   nhrp_id: 21
+   nhrp_pass: VLKDVx18
+   delay: 1000
+   hub_id: 121
+   tun_id: 100
+   tun_weght: PRI
+   tun_city: VRN-RTK
+   eigrp_id: 4
+21200:
+   id: 21200
+   spoke_wip: '88.83.195.132'
+   nhrp_id: 212
+   nhrp_pass: VLKDVx18
+   delay: 1100
+   hub_id: 121
+   tun_id: 200
+   tun_weght: BKP
+   tun_city: VRN-RTK
+   eigrp_id: 4
+#Voronej KVANT
+20100:
+   id: 20100
+   spoke_wip: '178.210.41.83'
+   nhrp_id: 20
+   nhrp_pass: VLKDVx18
+   delay: 1000
+   hub_id: 120
+   tun_id: 100
+   tun_weght: PRI
+   tun_city: VRN-KVANT
+   eigrp_id: 4
+20200:
+   id: 20200
+   spoke_wip: '178.210.41.82'
+   nhrp_id: 20200
+   nhrp_pass: VLKDVx18
+   delay: 1100
+   hub_id: 120
+   tun_id: 200
+   tun_weght: BKP
+   tun_city: VRN-KVANT
+   eigrp_id: 4
+20250:
+   id: 20250
+   spoke_wip: '178.210.41.84'
+   nhrp_id: 20250
+   nhrp_pass: VLKDVx18
+   delay: 1500
+   hub_id: 120
+   tun_id: 250
+   tun_weght: BKP
+   tun_city: VRN-KVANT
+   eigrp_id: 4
+20110:
+   id: 20110
+   spoke_wip: '31.222.32.35'
+   nhrp_id: 20110
+   nhrp_pass: VLKDVx18
+   delay: 1050
+   hub_id: 120
+   tun_id: 110
+   tun_weght: PRI
+   tun_city: VRN-MTS
+   eigrp_id: 4
+#NSK-TTK
+35100:
+   id: 35100
+   spoke_wip: '62.33.55.72'
+   nhrp_id: 35100
+   nhrp_pass: VLKDVx18
+   delay: 1000
+   hub_id: 35
+   tun_id: 100
+   tun_weght: PRI
+   tun_city: NSK-TTK
+   eigrp_id: 3
+   eigrp_net: 'network 10.35.0.0 0.0.255.255'
+35200:
+   id: 35200
+   spoke_wip: '62.33.55.73'
+   nhrp_id: 35
+   nhrp_pass: VLKDVx18
+   delay: 1100
+   hub_id: 35
+   tun_id: 200
+   tun_weght: BKP
+   tun_city: NSK-TTK
+   eigrp_id: 3
+#NSK-RTK
+36100:
+   id: 36100
+   spoke_wip: '217.65.84.242'
+   nhrp_id: 36100
+   nhrp_pass: VLKDVx18
+   delay: 1000
+   hub_id: 36
+   tun_id: 100
+   tun_weght: PRI
+   tun_city: NSK-RTK
+   eigrp_id: 3
+36200:
+   id: 36200
+   spoke_wip: '217.65.84.243'
+   nhrp_id: 36
+   nhrp_pass: VLKDVx18
+   delay: 1100
+   hub_id: 36
+   tun_id: 200
+   tun_weght: BKP
+   tun_city: NSK-TTK
+   eigrp_id: 3
+37100:
+   id: 37100
+   spoke_wip: '5.130.155.10'
+   nhrp_id: 37100
+   nhrp_pass: VLKDVx18
+   delay: 1000
+   hub_id: 37
+   tun_id: 100
+   tun_weght: PRI
+   tun_city: NSK-ERTH
+   eigrp_id: 3
+   eigrp_net: 'network 10.37.0.0 0.0.255.255'
+38100:
+   id: 38100
+   spoke_wip: '212.188.23.183'
+   nhrp_id: 38100
+   nhrp_pass: VLKDVx18
+   delay: 1000
+   hub_id: 38
+   tun_id: 100
+   tun_weght: PRI
+   tun_city: NSK-MTS
+   eigrp_id: 3
+   eigrp_net: 'network 10.38.0.0 0.0.255.255'
+#MSK-Dataline
+17100:
+   id: 17100
+   spoke_wip: '185.3.143.20'
+   nhrp_id: 17
+   nhrp_pass: VLKDVx17
+   delay: 1000
+   hub_id: 117
+   tun_id: 100
+   tun_weght: PRI
+   tun_city: MSK-Dataline
+   eigrp_id: 6
+17200:
+   id: 17200
+   spoke_wip: '95.181.194.41'
+   nhrp_id: 17
+   nhrp_pass: VLKDVx17
+   delay: 1200
+   hub_id: 117
+   tun_id: 200
+   tun_weght: BKP
+   tun_city: MSK-Dataline
+   eigrp_id: 6
+18100:
+   id: 18100
+   spoke_wip: '46.46.160.124'
+   nhrp_id: 18100
+   nhrp_pass: VLKDVx17
+   delay: 1000
+   hub_id: 118
+   tun_id: 100
+   tun_weght: PRI
+   tun_city: MSK-RETN
+   eigrp_id: 6
+18200:
+   id: 18200
+   spoke_wip: '46.46.160.123'
+   nhrp_id: 18200
+   nhrp_pass: VLKDVx17
+   delay: 1100
+   hub_id: 118
+   tun_id: 200
+   tun_weght: BKP
+   tun_city: MSK-RETN
+   eigrp_id: 6
+#Vladivostok-MTS
+172100:
+   id: 172100
+   spoke_wip: '176.118.31.89'
+   nhrp_id: 172
+   nhrp_pass: VLADKDVx
+   delay: 1000
+   hub_id: 172
+   tun_id: 100
+   tun_weght: PRI
+   tun_city: VLAD-MTS
+   eigrp_id: 172
+172200:
+   id: 172200
+   spoke_wip: '176.118.31.90'
+   nhrp_id: 172200
+   nhrp_pass: VLADKDVx
+   delay: 1100
+   hub_id: 172
+   tun_id: 200
+   tun_weght: BKP
+   tun_city: VLAD-MTS
+   eigrp_id: 172
+   #Vladivostok-TTK
+173100:
+   id: 173100
+   spoke_wip: '80.237.33.32'
+   nhrp_id: 173100
+   nhrp_pass: VLADKDVx
+   delay: 1000
+   hub_id: 173
+   tun_id: 100
+   tun_weght: PRI
+   tun_city: VLAD-TTK
+   eigrp_id: 172
+173200:
+   id: 173200
+   spoke_wip: '80.237.33.33'
+   nhrp_id: 173200
+   nhrp_pass: VLADKDVx
+   delay: 1100
+   hub_id: 173
+   tun_id: 200
+   tun_weght: BKP
+   tun_city: VLAD-TTK
+   eigrp_id: 172
+#Almata- IT-grad
+225100:
+   id: 225100
+   spoke_wip: '37.18.91.75'
+   nhrp_id: 225100
+   nhrp_pass: KZKDVx25
+   delay: 1100
+   hub_id: 225
+   tun_id: 100
+   tun_weght: PRI
+   tun_city: ALM-IT-GRAD
+   eigrp_id: 225
+225200:
+   id: 225200
+   spoke_wip: '37.18.91.74'
+   nhrp_id: 225200
+   nhrp_pass: KZKDVx25
+   delay: 1200
+   hub_id: 225
+   tun_id: 200
+   tun_weght: BKP
+   tun_city: ALM-IT-GRAD
+   eigrp_id: 225
+225110:
+   id: 225110
+   spoke_wip: '95.141.143.190'
+   nhrp_id: 225110
+   nhrp_pass: KZKDVx25
+   delay: 900
+   hub_id: 225
+   tun_id: 110
+   tun_weght: PRI
+   tun_city: ALM-KAZTRANSCOM
+   eigrp_id: 225
+226100:
+   id: 226100
+   spoke_wip: '95.56.228.242'
+   nhrp_id: 226100
+   nhrp_pass: KZKDVx25
+   delay: 1000
+   hub_id: 226
+   tun_id: 100
+   tun_weght: PRI
+   tun_city: ALM-KAKAHTELECOM
+   eigrp_id: 225
+   eigrp_net: 'network 10.226.0.0 0.0.255.255'
+227100:
+   id: 227100
+   spoke_wip: '178.163.229.65'
+   nhrp_id: 227100
+   nhrp_pass: MINDVx27
+   delay: 1000
+   hub_id: 227
+   tun_id: 100
+   tun_weght: PRI
+   tun_city: A1VELKOM
+   eigrp_id: 227
+   eigrp_net: 'network 10.227.0.0 0.0.255.255'
+227110:
+   id: 227110
+   spoke_wip: '212.98.183.18'
+   nhrp_id: 227110
+   nhrp_pass: MINDVx27
+   delay: 1100
+   hub_id: 227
+   tun_id: 110
+   tun_weght: PRI
+   tun_city: DelovayaSet
+   eigrp_id: 227
+   eigrp_net: 'network 10.227.0.0 0.0.255.255'

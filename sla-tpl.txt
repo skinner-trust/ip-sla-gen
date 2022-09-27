@@ -1,0 +1,14 @@
+{% for tun_if, items in router.items() %}
+!
+no ip sla {{tun_if}}
+ip sla {{tun_if}}
+ udp-jitter {{items.dest}} 16384 source-ip {{items.source}} codec g729a
+ {% if items.vrf is defined %}vrf {{items.vrf}}{% endif %}
+ !
+ tag {{items.hostname}} link {{items.isp_local}} to {{items.isp_target}}
+ frequency 10
+ip sla schedule {{tun_if}} life forever start-time now
+{% endfor %}
+!
+no ip scp server enable
+!
